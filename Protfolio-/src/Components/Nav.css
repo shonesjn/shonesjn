@@ -1,0 +1,12 @@
+.nav-water-bg {
+  background: linear-gradient(270deg, #00bfff, #1e90ff, #00ced1, #20b2aa);
+  background-size: 600% 600%;
+  animation: waterFlow 12s ease infinite;
+  box-shadow: 0 8px 25px rgba(0, 191, 255, 0.3);
+}
+
+@keyframes waterFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
